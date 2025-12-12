@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="stylesheet" href="style/textstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="Styles/video.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/sidebar.css">
+    
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <div class="search-container">
+          <input class="search-bar" type="text" placeholder="Search">
+          <button class="search-button">
+            <img class="search-icon"  src="icons/search.svg">
+            <div class="tooltip">Search</div>
+          </button>
+        </div>
+          <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search with your voice</div>
+          </button>
+      </div>
+      <div class="right-section">
+        <div class="notifications-icon-container">
+          <img class="notify-icon" src="icons/notifications.svg">
+           <div class="tooltip">Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="profile-icon" src="icons/profile.png">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+     <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+     </div>
+     <div class="sidebar-link">
+      <img src="icons/shorts.png">
+      <div>Shorts</div>
+     </div>
+     <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscribe</div>
+     </div>
+     <div class="sidebar-link">
+      <img src="icons/history.png">
+      <div>History</div>
+     </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=hjmVjznlNuc">
+              <img class="thumbnail-1" src="thumbnails/trump.jpg">
+            </a>
+            <div class="video-time">5:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@timesofindia">
+                  <img class="profile-picture" src="channel-pictures/TOI.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/TOI.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Times Of India 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      5&#46;68M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=hjmVjznlNuc">
+                <p class="video-title">
+                  Trump Declares War After Afghan Man Attacks U&#46S&#46 National Guard In DC&#59 &#39U&#46S&#46 Won&#39t Yield To Terror&#39
+                </p>
+              </a>
+              <p class="video-author"> 
+                Times Of India 
+              </p>
+              <p class="video-stats">
+                17M views &bull; 11 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a target="_blank" href="https://www.youtube.com/watch?v=gXnNvtbsKf8">
+              <img class="thumbnail-2" src="thumbnails/zeropost.avif">
+            </a>
+            <div class="video-time">5:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@Firstpost">
+                  <img class="profile-picture" src="channel-pictures/Firstpost.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/Firstpost.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Firstpost 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      9&#46;05M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=gXnNvtbsKf8">
+                <p class="video-title">
+                  Why Nobody is Posting on Social Media Anymore &#124; Vantage with Palki Sharma &#124; N18G
+                </p>
+              </a>
+              <p class="video-author"> 
+                Firstpost
+              </p>
+              <p class="video-stats">
+                250K views &bull; 11 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a target="_blank" href="https://www.youtube.com/watch?v=Vj2Q_11tol0">
+              <img class="thumbnail-1" src="thumbnails/champion.avif">
+            </a>
+            <div class="video-time">21:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@ChessBaseIndiachannel">
+                  <img class="profile-picture" src="channel-pictures/chessbaseIndia.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/chessbaseIndia.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      ChessBase India 
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      2&#46;88M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=Vj2Q_11tol0">
+                <p class="video-title">
+                  World Champion Gukesh vs Women&apos;s World Cup winner Divya Deshmukh &#124; FIDE Grand Swiss 2025
+                </p>
+              </a>
+              <p class="video-author"> 
+                ChessBase India 
+              </p>
+              <p class="video-stats">
+                5.4M views &bull; 2 months ago 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=1tRTWwZ5DIc">
+              <img class="thumbnail-2" src="thumbnails/nvidia.avif">
+            </a>
+            <div class="video-time">26:56</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@ThinkSchool">
+                  <img class="profile-picture" src="channel-pictures/thinkSchool.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/thinkSchool.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Think School
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      4&#46;78M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>   
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=1tRTWwZ5DIc">
+                <p class="video-title">
+                  The INSANE Rise of NVIDIA&#58; From Bankruptcy to &#36;4 Trillion&#63; &#124; Business case study &#64;NVIDIA
+                </p>
+              </a>
+              <p class="video-author"> 
+                Think School
+              </p>
+              <p class="video-stats">
+                985K views &bull; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=kyYT9b7OlAY&list=PLYscAJwWxqgWiUQr9KsdIND6nhjYyDi1k">
+              <img class="thumbnail-1" src="thumbnails/security.avif">
+            </a>
+            <div class="video-time">33:05</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@NitishRajput">
+                  <img class="profile-picture" src="channel-pictures/NitishRajput.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/NitishRajput.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Nitish Rajput
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      7&#46;97M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=kyYT9b7OlAY&list=PLYscAJwWxqgWiUQr9KsdIND6nhjYyDi1k">
+                <p class="video-title">
+                  How the US President Travels
+                </p>
+              </a>
+              <p class="video-author"> 
+                Nitish Rajput 
+              </p>
+              <p class="video-stats">
+                2.2M views &bull; 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=qNKKSujit94">
+              <img class="thumbnail-2" src="thumbnails/SamsungGalaxy.avif">
+            </a>
+            <div class="video-time">13:54</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@Mrwhosetheboss">
+                  <img class="profile-picture" src="channel-pictures/mrboss.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/mrboss.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Mrwhosetheboss
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      22M subscribers
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=qNKKSujit94">
+                <p class="video-title">
+                  Samsung Galaxy Z TriFold Unboxing!
+                </p>
+              </a>
+              <p class="video-author"> 
+                Mrwhosetheboss
+              </p>
+              <p class="video-stats">
+                841K views &#8226; 5 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=URSwRHb4Uv0">
+              <img class="thumbnail-1" src="thumbnails/36hourNoFood.avif">
+            </a>
+            <div class="video-time">2:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@casicreativoenglish">
+                  <img class="profile-picture" src="channel-pictures/CasiCreativo English.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/CasiCreativo English.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      CasiCreativo English
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      627K subscribers
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=URSwRHb4Uv0">
+                <p class="video-title">
+                  Your Organs when you Fast for 36 Hours
+                </p>
+              </a>
+              <p class="video-author"> 
+                CasiCreativo English
+              </p>
+              <p class="video-stats">
+                2&#46;1M views &#8226; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=96vWCTYhMZM">
+              <img class="thumbnail-2" src="thumbnails/ironScrubberPainting.avif">
+            </a>
+            <div class="video-time">11:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@jayleepainting">
+                  <img class="profile-picture" src="channel-pictures/Jay Lee Painting.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/Jay Lee Painting.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                     Jay Lee Painting
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      6&#46;09M subscribers
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=96vWCTYhMZM">
+                <p class="video-title">
+                  Iron scrubber painting technique / Painting deep in the woods / Easy creative art
+                </p>
+              </a>
+              <p class="video-author"> 
+               Jay Lee Painting
+              </p>
+              <p class="video-stats">
+                5&#46;4M views &#8226; 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=lcZW43hUlzc">
+              <img class="thumbnail-1" src="thumbnails/Grew 12 Plants From Seed.avif">
+            </a>
+            <div class="video-time">12:03</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@interestingasfck">
+                  <img class="profile-picture" src="channel-pictures/Interesting as FCK.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/Interesting as FCK.jpg">
+                  <div>  
+                    <div class="channel-tooltip-name">
+                      Interesting as FCK
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      209K subscribers
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=lcZW43hUlzc">
+                <p class="video-title">
+                  I Grew 12 Plants From Seed to Make this TIMELAPSE Compilation!
+                </p>
+              </a>
+              <p class="video-author">
+                Interesting as FCK
+              </p>
+              <p class="video-stats">
+                8&#46;5M views &#8226; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=L2ZE0s12Y0Q">
+              <img class="thumbnail-2" src="thumbnails/rubik's cube.avif">
+            </a>
+            <div class="video-time">14:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@CubeForSpeed1">
+                  <img class="profile-picture" src="channel-pictures/cube for speed.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/cube for speed.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Cube For Speed
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      3&#46;14M subscribers
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=L2ZE0s12Y0Q">
+                <p class="video-title"> 
+                  Rubik's Cubes From Level 1-9999
+                </p>
+              </a>
+              <p class="video-author"> 
+                Fun Science
+              </p>
+              <p class="video-stats">
+                13M views &#8226; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=BFo8xW1JlBE">
+              <img class="thumbnail-1" src="thumbnails/Insane POV Lines.avif">
+            </a>
+            <div class="video-time">17:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@wolfpack_adventures">
+                  <img class="profile-picture" src="channel-pictures/WOLFPACK ADVENTURES.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/WOLFPACK ADVENTURES.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      WOLFPACK ADVENTURES
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      264K subscribers
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=BFo8xW1JlBE">
+                <p class="video-title">
+                  Most INSANE POV Lines I Rode This Year!WOLFPACK ADVENTURES
+                </p>
+              </a>
+              <p class="video-author"> 
+                WOLFPACK ADVENTURES
+              </p>
+              <p class="video-stats">
+                21M views &#8226; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=qQzf-xzZO7M&list=RDqQzf-xzZO7M&start_radio=1">
+              <img class="thumbnail-2" src="thumbnails/Exam Study Music.avif">
+            </a>
+            <div class="video-time">2:00:02</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a target="_blank" href="https://www.youtube.com/@StudySonicFocus">
+                  <img class="profile-picture" src="channel-pictures/Study Sonic Focus.jpg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="channel-pictures/Study Sonic Focus.jpg">
+                  <div>
+                    <div class="channel-tooltip-name">                  
+                      Study Sonic Focus
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      191K subscribers
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=qQzf-xzZO7M&list=RDqQzf-xzZO7M&start_radio=1">
+                <p class="video-title">
+                  Exam Study Music - 40Hz Gamma Binaural Beats, Brainwave Music for Improved Memory
+                </p>
+              </a>
+              <p class="video-author"> 
+                Study Sonic Focus
+              </p>
+              <p class="video-stats">
+                12M views &#8226; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section> 
+    </main>
+
+  </body>
+</html>
