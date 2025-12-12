@@ -19,7 +19,7 @@
       bottom: 0;
       top: 55px;
       background-color: white;
-      width: 120px;
+      width: 100px;
       z-index: 200;
       padding-top: 13px;
     }
@@ -50,4 +50,5 @@
 .sidebar-link div {
  
   font-size: 10px;
+
 }
